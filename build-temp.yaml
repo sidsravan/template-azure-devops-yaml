@@ -1,7 +1,4 @@
-steps:
-- task: PowerShell@2
-  displayName: "Templates"
-  inputs:
-    targetType: 'inline'
-    script: 'dir env:'
-    pwsh: true
+- script: |
+    echo implmented templating concepts.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
