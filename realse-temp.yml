@@ -1,0 +1,5 @@
+steps:
+- script: |
+    echo implmented templating Release.
+    echo See https://aka.ms/yaml
+  displayName: 'Release'
