@@ -22,11 +22,11 @@ steps:
   displayName: 'Run a one-line script'
 
 - ${{ if eq(parameters.toolset, 'build') }}:
-- template: build-temp.yaml
-  parameters:
-    name: Linux
-    vmImage: 'Mahesh babu'
+  - template: build-temp.yaml
+    parameters:
+      name: Linux
+      vmImage: 'Mahesh babu'
 - ${{ if eq(parameters.toolset, 'release') }}:
-- template: realse-temp.yml
+  - template: realse-temp.yml
 
 
