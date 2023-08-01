@@ -12,15 +12,9 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+- template: build-temp.yaml
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-- task: PowerShell@2
-  displayName: "Current Environment Variables"
-  inputs:
-    targetType: 'inline'
-    script: 'dir env:'
-    pwsh: true
