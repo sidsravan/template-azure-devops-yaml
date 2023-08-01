@@ -1,4 +1,3 @@
-
 - task: PowerShell@2
   displayName: "Templates"
   inputs:
