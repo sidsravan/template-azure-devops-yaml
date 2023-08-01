@@ -13,6 +13,9 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 - template: build-temp.yaml
+  parameters:
+    name: Linux
+    vmImage: 'Mahesh babu'
 - template: realse-temp.yml
 
 
