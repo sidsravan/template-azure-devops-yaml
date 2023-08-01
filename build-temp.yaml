@@ -1,5 +1,7 @@
 steps:
+- script: echo ${{ parameters.name }}
 - script: |
+    echo ${{ parameters.vmImage }}
     echo implmented templating concepts.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
