@@ -13,5 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 - template: build-temp.yaml
+- template: realse-temp.yml
 
 
