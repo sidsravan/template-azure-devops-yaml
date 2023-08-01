@@ -1,3 +1,4 @@
+steps:
 - script: |
     echo implmented templating concepts.
     echo See https://aka.ms/yaml
