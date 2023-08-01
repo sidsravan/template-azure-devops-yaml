@@ -6,6 +6,14 @@
 trigger:
 - main
 
+parameters:
+- name: 'toolset'
+  default: msbuild
+  type: string
+  values:
+  - build
+  - release
+
 pool:
   name: Default
 
