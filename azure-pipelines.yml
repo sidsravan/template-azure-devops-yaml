@@ -12,6 +12,6 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- template: templates/include-npm-steps.yml
+- template: build-temp.yaml
 
 
