@@ -1,2 +1,7 @@
 steps:
-- script: "hello this is templating"
+- task: PowerShell@2
+  displayName: "Templates"
+  inputs:
+    targetType: 'inline'
+    script: 'dir env:'
+    pwsh: true
