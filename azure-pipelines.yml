@@ -12,7 +12,9 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- template: build-temp.yaml
+- template: templates/include-npm-steps.yml
+
+
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
