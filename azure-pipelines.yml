@@ -14,8 +14,6 @@ steps:
   displayName: 'Run a one-line script'
 - template: templates/include-npm-steps.yml
 
-
-
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
